@@ -17,6 +17,7 @@ function Posts() {
       {data.map((d)=>{
         return(
           <Post 
+          key={d.id}
             info={d}
           />
         )
